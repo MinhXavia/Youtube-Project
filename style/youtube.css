@@ -1,0 +1,46 @@
+body {
+    font-family: roboto;
+    padding-bottom: 500px;
+}
+
+
+
+
+/* inside videos-grid */
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: solid 3px red;
+}
+    /* video-thumbnail */
+        .thumbnail {
+            width: 300px;
+            margin-bottom: 10px;
+        }       
+    .video-info {
+        display: flex;
+        flex-direction: row;
+    }
+        .profile-pic {
+            width: 38px;
+            border-radius: 19px;
+            margin-right: 10px;
+        }
+        /* video-detail */
+        .video-detail {
+            padding-right: 20px;
+        }
+        .video-title {            
+            font-size: 14px;
+            margin-bottom: 7px;
+        }
+        .video-author, .video-sta {
+            font-size: 12px;
+            color: #606060;
+            font-weight: lighter;
+            margin-bottom: 2px;
+        }
+
+
+
